@@ -44,7 +44,7 @@ void* no_os_malloc(uint32_t size)
 }
 
 
-int32_t no_os_spi_init(struct no_os_spi_desc* spi_desc, struct no_os_spi_init_param* spi_init)
+int32_t no_os_spi_init(struct no_os_spi_desc** spi_desc, struct no_os_spi_init_param* spi_init)
 {
   return 0;
 }

@@ -17,16 +17,16 @@ struct no_os_gpio_desc
   
 };
 
-struct no_os_gpio_init_param
-{
-  
-};
-
 struct no_os_spi_desc
 {
   
 };
 
+
+struct no_os_gpio_init_param
+{
+  
+};
 
 struct no_os_spi_init_param
 {
@@ -49,7 +49,7 @@ void no_os_mdelay(uint32_t);
 
 void* no_os_malloc(uint32_t size);
 
-int32_t no_os_spi_init(struct no_os_spi_desc* spi_desc, struct no_os_spi_init_param* spi_init);
+int32_t no_os_spi_init(struct no_os_spi_desc** spi_desc, struct no_os_spi_init_param* spi_init);
 
 
 int32_t no_os_spi_remove(struct no_os_spi_desc* spi_desc);
