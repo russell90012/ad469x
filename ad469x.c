@@ -44,6 +44,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "ad469x.h"
+#include "no_os.h"
 #if 0
 // TBD
 #include "no_os_delay.h"
